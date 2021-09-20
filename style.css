@@ -1,26 +1,78 @@
+/* ====>Common Style====> */
+
 body {
     margin: 0;
     padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #757474;
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-rendering: optimizeLegibility;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    color: #464545;
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.5em;
 }
 
 h1 {
-    font-size: 55px;
-    color: #606060;
-    margin-top: 20px;
-}
-
-h1 span {
-    color: orange;
+    font-size: 60px;
 }
 
 h2 {
     font-size: 40px;
-    text-transform: capitalize;
-    color: #606060;
 }
 
-a.btn {
+h3 {
+    font-size: 28px;
+}
+
+span {
+    color: #d9212b;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+/* ====> Common Css Classes <=== */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.flex-items {
+    width: 50%;
+    align-self: center;
+}
+
+.btn {
     list-style: none;
     text-decoration: none;
     font-size: 20px;
@@ -32,36 +84,21 @@ a.btn {
     transition: 0.3s;
 }
 
-a.btn:hover {
+.btn:hover {
     background-image: linear-gradient(192deg, #cb8d1a, tomato);
     box-shadow: 2px 3px 20px 5px orange;
 }
 
-.flexible-container {
-    display: flex;
-    margin-bottom: 100px;
-    margin-top: 100px;
-    padding: 0 5%;
+#menu-bar {
+    padding: 10px 0;
+    border-bottom: 1px solid #3d3d3d3d;
 }
 
-.hero-area-content {
-    width: 50%;
-    margin-top: 150px;
-}
-
-.hero-area-content p {
-    font-weight: 400;
-    color: grey;
-    font-size: 21px;
-    margin-bottom: 90px;
-}
-
-.hero-area-image {
-    width: 60%;
-}
-
-.hero-area-image img {
-    margin-left: 20px;
+#about-area {
+    background-image: url('images/shapes/7.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .about-img img {
